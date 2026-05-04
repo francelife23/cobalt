@@ -1,0 +1,150 @@
+(footprint "MountingHole_4mm_Pad_TopBottom"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 4mm")
+	(tags "mounting hole 4mm")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a95830c2-079d-4f9f-9d18-d898ad549fff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "51c46a84-397a-4351-99bb-da5217df55aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_4mm_Pad_TopBottom"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33caa0f9-2dee-4b34-a6cd-7c02833d6916")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0dc3350-9e49-4214-9314-ca003c3c93aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4177987d-6900-4e5c-886a-80644ea24c51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62372fe7-eff4-433e-9188-8d8d57f5c44c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC Link" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1523d75a-8510-4326-9506-45809644fce8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "5452336a-92ed-41c0-895d-4141bbf38a95")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fa855e7b-a5bf-47bc-86fc-dd73bbe298ce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9240acaf-51fa-4683-9de1-d6143d8bf861")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.4 4.4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7367c8c4-2e5e-40dd-bc32-82af21f4f4e1")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 8 8)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1b71f3a8-615d-4216-a590-fce8f61544c0")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 8 8)
+		(layers "B.Cu" "B.Mask")
+		(uuid "277f5fd1-d991-4cb3-869d-31732554a151")
+	)
+)

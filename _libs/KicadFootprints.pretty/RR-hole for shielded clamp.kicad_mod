@@ -1,0 +1,126 @@
+(footprint "RR-hole for shielded clamp"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "H3"
+		(at -8 8.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6657c0a8-5e96-466b-b49d-95db9e42f605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CableClamp"
+		(at 2 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "745edb57-de7a-4181-b6fd-0a90a2568cb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Cobalt:RR-hole for shielded clamp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e6dac23-6b36-4ce3-b629-dcdf0683478b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0db5284-25a0-498a-a6de-71ace110dbbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "839c9ecd-35e5-4507-8670-1dcbd28baa16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -16 -7.5)
+		(end -10 7.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "275d6495-f3e7-436d-8703-b6ace11348ba")
+	)
+	(fp_rect
+		(start 10 -7.5)
+		(end 16 7.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fc0d9064-fa78-40d0-8b35-2c2eebecee8b")
+	)
+	(fp_poly
+		(pts
+			(xy -10 7.5) (xy -10 -7.5) (xy 10 -7.5) (xy 10 7.5)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "98b9035f-8bd8-4d7f-b395-ec3d6de46903")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b666f084-02b4-4109-b1b9-6bd3ab8ea741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 20 15)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e182970d-dc82-42cf-bb52-f569064292fe")
+	)
+)

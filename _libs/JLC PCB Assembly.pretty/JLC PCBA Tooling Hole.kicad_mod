@@ -1,0 +1,104 @@
+(footprint "JLC PCBA Tooling Hole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.46 2.513092 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f3f48ad-fae9-457c-ae5f-f17a0f3f28fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JLC PCBA Tooling Hole"
+		(at 0.46 4.013092 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c372d713-0843-4c9b-b08c-802bdf42d59d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.46 3.013092 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6cbb6ae-54ee-4253-877e-15aae4993daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.46 3.013092 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b63b2eb-3527-4b7f-acc6-55104d618136")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.46 3.013092 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55336844-2f3b-4b76-9a01-51208ced4c22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.65 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "c99bdef2-b627-4474-bd0c-3088d4bb3466")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.576 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "Edge.Cuts")
+		(uuid "3648ee44-2a75-452e-96b7-8cbe496db18b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.46 5.513092 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6b984a3-bea6-40e5-a961-4caca18292a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)
