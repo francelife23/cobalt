@@ -645,7 +645,7 @@
         "uuid": "875b166f-e0fe-493b-829e-f63a6175e073"
       }
     ],
-    "used_designators": "CABLETIE7-12,DINMNTA1-3,DINMNTB1-3,#PWR15,#PWR22-30,IDC5-9",
+    "used_designators": "CABLETIE7-12,DINMNTA1-3,J2,DINMNTB1-3,#PWR15,#PWR22-30,IDC5-9,JP1",
     "variants": []
   },
   "sheets": [
