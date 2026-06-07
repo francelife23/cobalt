@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "52ec70a1-2f39-4283-b650-162aa6b79930")
 	(paper "A4")
 	(lib_symbols
@@ -13,8 +13,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "Conn_02x10_Counter_Clockwise"
 				(at 1.27 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,47 +37,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_02x10_Counter_Clockwise_1_1"
@@ -487,142 +503,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
-					(name "Pin_20"
+					(name "Pin_11"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -649,16 +539,142 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
-					(name "Pin_11"
+					(name "Pin_13"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -670,15 +686,21 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 107.95 90.17) (xy 104.14 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40840bb5-45a7-42f8-b938-6ee7d52696fe")
+	(no_connect
+		(at 107.95 77.47)
+		(uuid "2dbfc50b-ac36-42d1-b0af-c9d77fcd4d77")
+	)
+	(no_connect
+		(at 107.95 82.55)
+		(uuid "3f005abf-c86e-45ff-8118-ef891e2531c9")
+	)
+	(no_connect
+		(at 107.95 90.17)
+		(uuid "8ce5a883-f299-4c3a-97ff-8eb87ca0bd28")
+	)
+	(no_connect
+		(at 107.95 87.63)
+		(uuid "ba740ebd-6126-4c2d-b2cd-d935011e4c32")
 	)
 	(wire
 		(pts
@@ -722,17 +744,6 @@
 		)
 		(uuid "0b409b26-701a-4c0e-8385-2a28ef8e2a63")
 	)
-	(hierarchical_label "INPUT_PIR2"
-		(shape input)
-		(at 120.65 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a8432d8-58ef-4ca6-a8e0-2dabfc6d1b75")
-	)
 	(hierarchical_label "INPUT_TAMP2"
 		(shape input)
 		(at 107.95 85.09 180)
@@ -744,16 +755,27 @@
 		)
 		(uuid "2b88350e-950e-4d5d-99b6-3e507cac3ada")
 	)
-	(hierarchical_label "INPUT_MAG2"
+	(hierarchical_label "INPUT_DOOR"
 		(shape input)
-		(at 120.65 82.55 0)
+		(at 107.95 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2eeeafc7-51f1-43fb-a435-7bc023aca8a0")
+	)
+	(hierarchical_label "SOUNDER"
+		(shape output)
+		(at 120.65 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3ecc495c-8161-4560-816c-f3878e03cdef")
+		(uuid "3be00332-0bcf-4958-ab78-786698cd939e")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -766,16 +788,16 @@
 		)
 		(uuid "46aee72b-cd31-4139-8baf-0fc5e5680101")
 	)
-	(hierarchical_label "INPUT_ALARM"
-		(shape input)
-		(at 104.14 90.17 180)
+	(hierarchical_label "STROBE"
+		(shape output)
+		(at 120.65 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "51a0d52e-95d2-46e1-a48f-3e468d70e6fb")
+		(uuid "53fc5fe0-7fb3-49ec-86ab-f9f934027e3a")
 	)
 	(hierarchical_label "5V"
 		(shape passive)
@@ -799,6 +821,17 @@
 		)
 		(uuid "6144ce0a-4d1a-44f7-a3e8-c8c66e8c5c0e")
 	)
+	(hierarchical_label "INPUT_FIRE"
+		(shape input)
+		(at 120.65 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ea5fd0a-abc3-44a5-9c39-855850e1dbd7")
+	)
 	(hierarchical_label "FLOOR_TEMP_DATA"
 		(shape input)
 		(at 120.65 92.71 0)
@@ -809,17 +842,6 @@
 			(justify left)
 		)
 		(uuid "878cc1d6-e0a0-4b6b-b4c5-50fb702c5832")
-	)
-	(hierarchical_label "INPUT_PIR1"
-		(shape input)
-		(at 120.65 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97047890-5308-4862-8020-cf16d2a534e8")
 	)
 	(hierarchical_label "INPUT_TAMP1"
 		(shape input)
@@ -832,16 +854,16 @@
 		)
 		(uuid "99c2d365-7b44-4184-9bcf-178676fe2793")
 	)
-	(hierarchical_label "INPUT_SAFETY"
+	(hierarchical_label "INPUT_PIR"
 		(shape input)
-		(at 107.95 74.93 180)
+		(at 120.65 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "a7e34ac3-dd28-490a-8bbe-c177e19e415e")
+		(uuid "a830ddfe-13f4-45e5-a668-2db0a2fe1a76")
 	)
 	(hierarchical_label "RSP_DATA-"
 		(shape input)
@@ -865,29 +887,7 @@
 		)
 		(uuid "dd01065c-80e0-43cf-b3cd-466d6ef54ba4")
 	)
-	(hierarchical_label "INPUT_PIR1"
-		(shape input)
-		(at 107.95 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e33859ad-d546-4e98-afe2-318c8283afac")
-	)
-	(hierarchical_label "INPUT_MAG1"
-		(shape input)
-		(at 120.65 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e6710b74-fb94-4ea0-810b-b7481e3a7564")
-	)
-	(hierarchical_label "12V"
+	(hierarchical_label "POWER"
 		(shape passive)
 		(at 120.65 72.39 0)
 		(effects
@@ -898,40 +898,22 @@
 		)
 		(uuid "e6a840c6-4a1f-448a-bc37-4af5259195d7")
 	)
-	(hierarchical_label "INPUT_MAG3"
-		(shape input)
-		(at 107.95 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ee749e66-46e7-42c3-b3b6-c19a94fc7358")
-	)
-	(hierarchical_label "INPUT_PIR2"
-		(shape input)
-		(at 107.95 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3feb2ab-dd57-4f20-bdf7-d5b0623c09f5")
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise")
 		(at 113.03 82.55 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2ffa3f4-d388-4f7a-a7a1-7fdb8508e203")
 		(property "Reference" "J2"
 			(at 114.3 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,37 +922,45 @@
 		)
 		(property "Value" "ROOM CONTROLLER"
 			(at 114.3 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical"
 			(at 113.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 113.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 113.03 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "14"
